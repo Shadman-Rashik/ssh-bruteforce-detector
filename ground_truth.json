@@ -1,0 +1,8 @@
+{
+  "attackers": {
+    "198.51.100.7": "fast brute force",
+    "198.51.100.23": "brute force then successful login",
+    "203.0.113.50": "username spraying",
+    "203.0.113.99": "low-and-slow brute force"
+  }
+}

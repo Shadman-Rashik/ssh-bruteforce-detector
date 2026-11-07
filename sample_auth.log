@@ -1,0 +1,335 @@
+Nov  5 00:02:30 web-server-01 sshd[8569]: pam_unix(sshd:session): session opened for user carol
+Nov  5 00:02:32 web-server-01 sshd[7770]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 00:04:42 web-server-01 sshd[5345]: Accepted password for bob from 192.0.2.14 port 45586 ssh2
+Nov  5 00:07:05 web-server-01 sshd[9201]: Accepted password for bob from 192.0.2.14 port 37261 ssh2
+Nov  5 00:32:14 web-server-01 sshd[4872]: Accepted password for carol from 192.0.2.15 port 26112 ssh2
+Nov  5 00:51:41 web-server-01 sshd[4164]: Accepted password for dave from 192.0.2.12 port 63255 ssh2
+Nov  5 00:54:38 web-server-01 sshd[5012]: Accepted password for alice from 192.0.2.11 port 38024 ssh2
+Nov  5 01:03:03 web-server-01 sshd[4920]: pam_unix(sshd:session): session opened for user carol
+Nov  5 01:03:05 web-server-01 sshd[3594]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 01:07:47 web-server-01 sshd[4266]: Failed password for alice from 192.0.2.11 port 36205 ssh2
+Nov  5 01:07:55 web-server-01 sshd[3496]: Accepted password for alice from 192.0.2.11 port 21335 ssh2
+Nov  5 01:27:09 web-server-01 sshd[4441]: Accepted password for erin from 192.0.2.13 port 43449 ssh2
+Nov  5 01:36:18 web-server-01 sshd[6464]: Accepted password for erin from 192.0.2.13 port 20232 ssh2
+Nov  5 01:36:57 web-server-01 sshd[1027]: Accepted password for erin from 192.0.2.13 port 48577 ssh2
+Nov  5 01:49:42 web-server-01 sshd[5082]: Accepted password for bob from 192.0.2.14 port 56530 ssh2
+Nov  5 01:53:46 web-server-01 sshd[4673]: Failed password for carol from 192.0.2.15 port 42935 ssh2
+Nov  5 01:53:54 web-server-01 sshd[2124]: Accepted password for carol from 192.0.2.15 port 62607 ssh2
+Nov  5 01:58:24 web-server-01 sshd[9494]: pam_unix(sshd:session): session opened for user dave
+Nov  5 01:58:26 web-server-01 sshd[6927]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 02:02:11 web-server-01 sshd[1525]: Accepted password for erin from 192.0.2.13 port 35010 ssh2
+Nov  5 02:04:52 web-server-01 sshd[8811]: Accepted password for erin from 192.0.2.13 port 23286 ssh2
+Nov  5 02:06:32 web-server-01 sshd[2290]: Accepted password for dave from 192.0.2.12 port 35785 ssh2
+Nov  5 02:14:00 web-server-01 sshd[9817]: Failed password for invalid user root from 198.51.100.7 port 60364 ssh2
+Nov  5 02:14:01 web-server-01 sshd[8616]: Failed password for invalid user admin from 198.51.100.7 port 51686 ssh2
+Nov  5 02:14:03 web-server-01 sshd[5397]: Failed password for invalid user test from 198.51.100.7 port 48545 ssh2
+Nov  5 02:14:04 web-server-01 sshd[5022]: Failed password for invalid user ubuntu from 198.51.100.7 port 41122 ssh2
+Nov  5 02:14:06 web-server-01 sshd[5569]: Failed password for invalid user oracle from 198.51.100.7 port 25679 ssh2
+Nov  5 02:14:07 web-server-01 sshd[4995]: Failed password for invalid user root from 198.51.100.7 port 49543 ssh2
+Nov  5 02:14:09 web-server-01 sshd[7209]: Failed password for invalid user admin from 198.51.100.7 port 50455 ssh2
+Nov  5 02:14:10 web-server-01 sshd[1470]: Failed password for invalid user test from 198.51.100.7 port 42046 ssh2
+Nov  5 02:14:12 web-server-01 sshd[6325]: Failed password for invalid user ubuntu from 198.51.100.7 port 52394 ssh2
+Nov  5 02:14:13 web-server-01 sshd[8988]: Failed password for invalid user oracle from 198.51.100.7 port 31917 ssh2
+Nov  5 02:14:15 web-server-01 sshd[6813]: Failed password for invalid user root from 198.51.100.7 port 33901 ssh2
+Nov  5 02:14:16 web-server-01 sshd[6576]: Failed password for invalid user admin from 198.51.100.7 port 36931 ssh2
+Nov  5 02:14:18 web-server-01 sshd[5526]: Failed password for invalid user test from 198.51.100.7 port 38327 ssh2
+Nov  5 02:14:19 web-server-01 sshd[1166]: Failed password for invalid user ubuntu from 198.51.100.7 port 56424 ssh2
+Nov  5 02:14:21 web-server-01 sshd[4130]: Failed password for invalid user oracle from 198.51.100.7 port 53857 ssh2
+Nov  5 02:14:22 web-server-01 sshd[4954]: Failed password for invalid user root from 198.51.100.7 port 25610 ssh2
+Nov  5 02:14:24 web-server-01 sshd[9004]: Failed password for invalid user admin from 198.51.100.7 port 46635 ssh2
+Nov  5 02:14:25 web-server-01 sshd[4937]: Failed password for invalid user test from 198.51.100.7 port 56384 ssh2
+Nov  5 02:14:27 web-server-01 sshd[9041]: Failed password for invalid user ubuntu from 198.51.100.7 port 51201 ssh2
+Nov  5 02:14:28 web-server-01 sshd[1282]: Failed password for invalid user oracle from 198.51.100.7 port 49371 ssh2
+Nov  5 02:14:30 web-server-01 sshd[5820]: Failed password for invalid user root from 198.51.100.7 port 26098 ssh2
+Nov  5 02:14:31 web-server-01 sshd[7625]: Failed password for invalid user admin from 198.51.100.7 port 34522 ssh2
+Nov  5 02:14:33 web-server-01 sshd[6016]: Failed password for invalid user test from 198.51.100.7 port 35945 ssh2
+Nov  5 02:14:34 web-server-01 sshd[7046]: Failed password for invalid user ubuntu from 198.51.100.7 port 63513 ssh2
+Nov  5 02:14:36 web-server-01 sshd[9698]: Failed password for invalid user oracle from 198.51.100.7 port 51015 ssh2
+Nov  5 02:14:37 web-server-01 sshd[7971]: Failed password for invalid user root from 198.51.100.7 port 42528 ssh2
+Nov  5 02:14:39 web-server-01 sshd[6419]: Failed password for invalid user admin from 198.51.100.7 port 56070 ssh2
+Nov  5 02:14:40 web-server-01 sshd[8434]: Failed password for invalid user test from 198.51.100.7 port 43056 ssh2
+Nov  5 02:14:42 web-server-01 sshd[6023]: Failed password for invalid user ubuntu from 198.51.100.7 port 37754 ssh2
+Nov  5 02:14:43 web-server-01 sshd[4777]: Failed password for invalid user oracle from 198.51.100.7 port 36475 ssh2
+Nov  5 02:14:45 web-server-01 sshd[4155]: Failed password for invalid user root from 198.51.100.7 port 27907 ssh2
+Nov  5 02:14:46 web-server-01 sshd[2958]: Failed password for invalid user admin from 198.51.100.7 port 40679 ssh2
+Nov  5 02:14:48 web-server-01 sshd[4033]: Failed password for invalid user test from 198.51.100.7 port 55118 ssh2
+Nov  5 02:14:49 web-server-01 sshd[4545]: Failed password for invalid user ubuntu from 198.51.100.7 port 32552 ssh2
+Nov  5 02:14:51 web-server-01 sshd[5530]: Failed password for invalid user oracle from 198.51.100.7 port 51732 ssh2
+Nov  5 02:14:52 web-server-01 sshd[9595]: Failed password for invalid user root from 198.51.100.7 port 58639 ssh2
+Nov  5 02:14:54 web-server-01 sshd[5636]: Failed password for invalid user admin from 198.51.100.7 port 59111 ssh2
+Nov  5 02:14:55 web-server-01 sshd[4180]: Failed password for invalid user test from 198.51.100.7 port 26588 ssh2
+Nov  5 02:14:57 web-server-01 sshd[4727]: Failed password for invalid user ubuntu from 198.51.100.7 port 39414 ssh2
+Nov  5 02:14:58 web-server-01 sshd[3939]: Failed password for invalid user oracle from 198.51.100.7 port 43650 ssh2
+Nov  5 02:28:27 web-server-01 sshd[4853]: Accepted password for carol from 192.0.2.15 port 64250 ssh2
+Nov  5 02:32:30 web-server-01 sshd[7798]: pam_unix(sshd:session): session opened for user erin
+Nov  5 02:32:32 web-server-01 sshd[6568]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 02:34:47 web-server-01 sshd[4899]: Accepted password for erin from 192.0.2.13 port 53695 ssh2
+Nov  5 02:44:22 web-server-01 sshd[9938]: Accepted password for alice from 192.0.2.11 port 29768 ssh2
+Nov  5 02:55:00 web-server-01 sshd[2122]: Accepted password for carol from 192.0.2.15 port 32178 ssh2
+Nov  5 02:56:01 web-server-01 sshd[3471]: Accepted password for carol from 192.0.2.15 port 29068 ssh2
+Nov  5 03:21:37 web-server-01 sshd[7939]: Accepted password for alice from 192.0.2.11 port 61568 ssh2
+Nov  5 03:23:37 web-server-01 sshd[2858]: pam_unix(sshd:session): session opened for user dave
+Nov  5 03:23:39 web-server-01 sshd[8560]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 03:24:40 web-server-01 sshd[4811]: Accepted password for alice from 192.0.2.11 port 34328 ssh2
+Nov  5 03:31:16 web-server-01 sshd[6635]: Accepted password for bob from 192.0.2.14 port 43526 ssh2
+Nov  5 03:31:44 web-server-01 sshd[8062]: Accepted password for alice from 192.0.2.11 port 63187 ssh2
+Nov  5 03:44:33 web-server-01 sshd[7658]: Accepted password for dave from 192.0.2.12 port 43178 ssh2
+Nov  5 03:56:48 web-server-01 sshd[8119]: Accepted password for alice from 192.0.2.11 port 59096 ssh2
+Nov  5 03:59:31 web-server-01 sshd[3621]: Accepted password for alice from 192.0.2.11 port 30016 ssh2
+Nov  5 04:04:22 web-server-01 sshd[6038]: Accepted password for alice from 192.0.2.11 port 43788 ssh2
+Nov  5 04:16:36 web-server-01 sshd[9165]: pam_unix(sshd:session): session opened for user dave
+Nov  5 04:16:38 web-server-01 sshd[5781]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 04:21:53 web-server-01 sshd[5033]: Accepted password for bob from 192.0.2.14 port 57334 ssh2
+Nov  5 04:24:26 web-server-01 sshd[1672]: Failed password for carol from 192.0.2.15 port 57088 ssh2
+Nov  5 04:24:34 web-server-01 sshd[9728]: Accepted password for carol from 192.0.2.15 port 42754 ssh2
+Nov  5 04:32:41 web-server-01 sshd[2291]: Accepted password for carol from 192.0.2.15 port 44807 ssh2
+Nov  5 04:35:44 web-server-01 sshd[2874]: Failed password for dave from 192.0.2.12 port 51035 ssh2
+Nov  5 04:35:52 web-server-01 sshd[4571]: Accepted password for dave from 192.0.2.12 port 56960 ssh2
+Nov  5 04:38:24 web-server-01 sshd[6050]: Accepted password for bob from 192.0.2.14 port 22741 ssh2
+Nov  5 04:40:28 web-server-01 sshd[8787]: Accepted password for dave from 192.0.2.12 port 63237 ssh2
+Nov  5 04:49:21 web-server-01 sshd[2127]: Accepted password for erin from 192.0.2.13 port 42872 ssh2
+Nov  5 05:04:49 web-server-01 sshd[9935]: Accepted password for dave from 192.0.2.12 port 26717 ssh2
+Nov  5 05:06:13 web-server-01 sshd[4006]: Accepted password for bob from 192.0.2.14 port 47648 ssh2
+Nov  5 05:37:37 web-server-01 sshd[3662]: Accepted password for carol from 192.0.2.15 port 35514 ssh2
+Nov  5 05:39:34 web-server-01 sshd[5616]: Accepted password for carol from 192.0.2.15 port 37848 ssh2
+Nov  5 05:47:46 web-server-01 sshd[7267]: Accepted password for erin from 192.0.2.13 port 27084 ssh2
+Nov  5 05:52:54 web-server-01 sshd[9689]: Accepted password for erin from 192.0.2.13 port 55348 ssh2
+Nov  5 05:55:19 web-server-01 sshd[6820]: Accepted password for erin from 192.0.2.13 port 44260 ssh2
+Nov  5 05:56:57 web-server-01 sshd[7216]: Accepted password for dave from 192.0.2.12 port 50294 ssh2
+Nov  5 06:00:32 web-server-01 sshd[3091]: Failed password for bob from 192.0.2.14 port 50630 ssh2
+Nov  5 06:00:40 web-server-01 sshd[9751]: Accepted password for bob from 192.0.2.14 port 60780 ssh2
+Nov  5 06:00:43 web-server-01 sshd[9645]: Accepted password for carol from 192.0.2.15 port 37370 ssh2
+Nov  5 06:54:50 web-server-01 sshd[4566]: Accepted password for dave from 192.0.2.12 port 39445 ssh2
+Nov  5 06:58:32 web-server-01 sshd[9786]: Accepted password for dave from 192.0.2.12 port 32465 ssh2
+Nov  5 07:00:03 web-server-01 sshd[1750]: Accepted password for carol from 192.0.2.15 port 24558 ssh2
+Nov  5 07:13:15 web-server-01 sshd[4978]: Failed password for bob from 192.0.2.14 port 24980 ssh2
+Nov  5 07:13:23 web-server-01 sshd[5941]: Accepted password for bob from 192.0.2.14 port 26678 ssh2
+Nov  5 07:15:00 web-server-01 sshd[1400]: Accepted password for dave from 192.0.2.12 port 29656 ssh2
+Nov  5 07:24:40 web-server-01 sshd[9998]: pam_unix(sshd:session): session opened for user erin
+Nov  5 07:24:42 web-server-01 sshd[3146]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 07:39:09 web-server-01 sshd[6279]: Accepted password for erin from 192.0.2.13 port 48173 ssh2
+Nov  5 07:40:07 web-server-01 sshd[4335]: Accepted password for carol from 192.0.2.15 port 42471 ssh2
+Nov  5 07:42:22 web-server-01 sshd[6355]: Failed password for erin from 192.0.2.13 port 49799 ssh2
+Nov  5 07:42:30 web-server-01 sshd[7211]: Accepted password for erin from 192.0.2.13 port 42118 ssh2
+Nov  5 07:58:03 web-server-01 sshd[9486]: Accepted password for bob from 192.0.2.14 port 31526 ssh2
+Nov  5 08:01:04 web-server-01 sshd[2163]: Accepted password for carol from 192.0.2.15 port 20471 ssh2
+Nov  5 08:10:51 web-server-01 sshd[6539]: Accepted password for dave from 192.0.2.12 port 24196 ssh2
+Nov  5 08:20:07 web-server-01 sshd[1514]: Accepted password for alice from 192.0.2.11 port 24417 ssh2
+Nov  5 08:33:04 web-server-01 sshd[6085]: Accepted password for alice from 192.0.2.11 port 64092 ssh2
+Nov  5 08:54:52 web-server-01 sshd[2193]: Accepted password for alice from 192.0.2.11 port 51138 ssh2
+Nov  5 09:19:46 web-server-01 sshd[3749]: Failed password for bob from 192.0.2.14 port 44175 ssh2
+Nov  5 09:19:54 web-server-01 sshd[2876]: Accepted password for bob from 192.0.2.14 port 59707 ssh2
+Nov  5 09:26:12 web-server-01 sshd[5543]: Accepted password for bob from 192.0.2.14 port 36203 ssh2
+Nov  5 09:29:39 web-server-01 sshd[6147]: Accepted password for erin from 192.0.2.13 port 33386 ssh2
+Nov  5 09:30:00 web-server-01 sshd[7882]: Failed password for carol from 192.0.2.10 port 20829 ssh2
+Nov  5 09:30:09 web-server-01 sshd[2729]: Failed password for carol from 192.0.2.10 port 52125 ssh2
+Nov  5 09:30:18 web-server-01 sshd[6934]: Failed password for carol from 192.0.2.10 port 48411 ssh2
+Nov  5 09:30:37 web-server-01 sshd[5349]: Accepted password for alice from 192.0.2.11 port 31702 ssh2
+Nov  5 09:30:40 web-server-01 sshd[8532]: Accepted password for carol from 192.0.2.10 port 61653 ssh2
+Nov  5 09:37:44 web-server-01 sshd[2753]: Accepted password for dave from 192.0.2.12 port 27564 ssh2
+Nov  5 09:37:51 web-server-01 sshd[8527]: Accepted password for carol from 192.0.2.15 port 22847 ssh2
+Nov  5 09:38:38 web-server-01 sshd[5040]: Accepted password for dave from 192.0.2.12 port 29150 ssh2
+Nov  5 09:40:14 web-server-01 sshd[3144]: Accepted password for dave from 192.0.2.12 port 45938 ssh2
+Nov  5 09:42:53 web-server-01 sshd[6573]: Accepted password for carol from 192.0.2.15 port 62006 ssh2
+Nov  5 09:43:13 web-server-01 sshd[2169]: Accepted password for dave from 192.0.2.12 port 64796 ssh2
+Nov  5 09:53:34 web-server-01 sshd[6238]: Accepted password for dave from 192.0.2.12 port 42010 ssh2
+Nov  5 10:07:43 web-server-01 sshd[3615]: Accepted password for carol from 192.0.2.15 port 20425 ssh2
+Nov  5 10:23:08 web-server-01 sshd[8973]: Accepted password for bob from 192.0.2.14 port 47722 ssh2
+Nov  5 10:29:12 web-server-01 sshd[8941]: pam_unix(sshd:session): session opened for user bob
+Nov  5 10:29:14 web-server-01 sshd[2989]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 10:32:10 web-server-01 sshd[4814]: Accepted password for dave from 192.0.2.12 port 25229 ssh2
+Nov  5 10:40:27 web-server-01 sshd[6925]: Accepted password for carol from 192.0.2.15 port 61198 ssh2
+Nov  5 10:41:09 web-server-01 sshd[3591]: Accepted password for alice from 192.0.2.11 port 48492 ssh2
+Nov  5 10:52:12 web-server-01 sshd[9022]: pam_unix(sshd:session): session opened for user carol
+Nov  5 10:52:14 web-server-01 sshd[3434]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 10:52:19 web-server-01 sshd[7865]: Accepted password for erin from 192.0.2.13 port 45558 ssh2
+Nov  5 11:18:50 web-server-01 sshd[1224]: pam_unix(sshd:session): session opened for user carol
+Nov  5 11:18:52 web-server-01 sshd[7684]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 11:19:28 web-server-01 sshd[1420]: Failed password for dave from 192.0.2.12 port 27084 ssh2
+Nov  5 11:19:36 web-server-01 sshd[7149]: Accepted password for dave from 192.0.2.12 port 40444 ssh2
+Nov  5 11:20:57 web-server-01 sshd[7118]: Accepted password for dave from 192.0.2.12 port 46148 ssh2
+Nov  5 11:25:14 web-server-01 sshd[9379]: Accepted password for erin from 192.0.2.13 port 48599 ssh2
+Nov  5 11:25:45 web-server-01 sshd[3041]: Accepted password for carol from 192.0.2.15 port 63475 ssh2
+Nov  5 11:40:00 web-server-01 sshd[1231]: Failed password for bob from 198.51.100.23 port 39809 ssh2
+Nov  5 11:40:02 web-server-01 sshd[3073]: Failed password for bob from 198.51.100.23 port 55005 ssh2
+Nov  5 11:40:04 web-server-01 sshd[1745]: Failed password for bob from 198.51.100.23 port 37977 ssh2
+Nov  5 11:40:06 web-server-01 sshd[5786]: Failed password for bob from 198.51.100.23 port 23573 ssh2
+Nov  5 11:40:08 web-server-01 sshd[9042]: Failed password for bob from 198.51.100.23 port 28275 ssh2
+Nov  5 11:40:10 web-server-01 sshd[1200]: Failed password for bob from 198.51.100.23 port 26723 ssh2
+Nov  5 11:40:12 web-server-01 sshd[5658]: Failed password for bob from 198.51.100.23 port 57621 ssh2
+Nov  5 11:40:14 web-server-01 sshd[8843]: Failed password for bob from 198.51.100.23 port 50762 ssh2
+Nov  5 11:40:16 web-server-01 sshd[6582]: Failed password for bob from 198.51.100.23 port 48866 ssh2
+Nov  5 11:40:18 web-server-01 sshd[1841]: Failed password for bob from 198.51.100.23 port 32082 ssh2
+Nov  5 11:40:20 web-server-01 sshd[8827]: Failed password for bob from 198.51.100.23 port 36546 ssh2
+Nov  5 11:40:22 web-server-01 sshd[2070]: Failed password for bob from 198.51.100.23 port 27476 ssh2
+Nov  5 11:40:24 web-server-01 sshd[9056]: Failed password for bob from 198.51.100.23 port 46260 ssh2
+Nov  5 11:40:26 web-server-01 sshd[1878]: Failed password for bob from 198.51.100.23 port 24855 ssh2
+Nov  5 11:40:28 web-server-01 sshd[3444]: Failed password for bob from 198.51.100.23 port 29943 ssh2
+Nov  5 11:40:30 web-server-01 sshd[5978]: Failed password for bob from 198.51.100.23 port 56886 ssh2
+Nov  5 11:40:32 web-server-01 sshd[5066]: Failed password for bob from 198.51.100.23 port 25582 ssh2
+Nov  5 11:40:34 web-server-01 sshd[7818]: Failed password for bob from 198.51.100.23 port 27762 ssh2
+Nov  5 11:40:36 web-server-01 sshd[4697]: Failed password for bob from 198.51.100.23 port 59735 ssh2
+Nov  5 11:40:38 web-server-01 sshd[7232]: Failed password for bob from 198.51.100.23 port 54247 ssh2
+Nov  5 11:40:40 web-server-01 sshd[8253]: Failed password for bob from 198.51.100.23 port 49524 ssh2
+Nov  5 11:40:42 web-server-01 sshd[8025]: Failed password for bob from 198.51.100.23 port 39487 ssh2
+Nov  5 11:40:44 web-server-01 sshd[1986]: Failed password for bob from 198.51.100.23 port 40013 ssh2
+Nov  5 11:40:46 web-server-01 sshd[2625]: Failed password for bob from 198.51.100.23 port 59952 ssh2
+Nov  5 11:40:48 web-server-01 sshd[4457]: Failed password for bob from 198.51.100.23 port 33617 ssh2
+Nov  5 11:40:50 web-server-01 sshd[2330]: Failed password for bob from 198.51.100.23 port 37343 ssh2
+Nov  5 11:40:52 web-server-01 sshd[4929]: Failed password for bob from 198.51.100.23 port 30292 ssh2
+Nov  5 11:40:54 web-server-01 sshd[2229]: Failed password for bob from 198.51.100.23 port 31391 ssh2
+Nov  5 11:40:56 web-server-01 sshd[1043]: Failed password for bob from 198.51.100.23 port 30258 ssh2
+Nov  5 11:40:58 web-server-01 sshd[8381]: Failed password for bob from 198.51.100.23 port 46772 ssh2
+Nov  5 11:41:03 web-server-01 sshd[8699]: Accepted password for bob from 198.51.100.23 port 58916 ssh2
+Nov  5 11:46:12 web-server-01 sshd[7622]: pam_unix(sshd:session): session opened for user alice
+Nov  5 11:46:14 web-server-01 sshd[9431]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 11:57:05 web-server-01 sshd[2137]: Accepted password for bob from 192.0.2.14 port 38258 ssh2
+Nov  5 12:06:13 web-server-01 sshd[9903]: pam_unix(sshd:session): session opened for user carol
+Nov  5 12:06:15 web-server-01 sshd[7180]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 12:15:18 web-server-01 sshd[2519]: Accepted password for dave from 192.0.2.12 port 26698 ssh2
+Nov  5 12:23:17 web-server-01 sshd[3547]: Accepted password for bob from 192.0.2.14 port 38210 ssh2
+Nov  5 12:43:50 web-server-01 sshd[4728]: Accepted password for bob from 192.0.2.14 port 40000 ssh2
+Nov  5 12:47:05 web-server-01 sshd[9346]: Accepted password for erin from 192.0.2.13 port 62040 ssh2
+Nov  5 13:26:33 web-server-01 sshd[3426]: Accepted password for alice from 192.0.2.11 port 58175 ssh2
+Nov  5 13:27:14 web-server-01 sshd[3584]: Accepted password for dave from 192.0.2.12 port 38676 ssh2
+Nov  5 13:29:31 web-server-01 sshd[9289]: Failed password for bob from 192.0.2.14 port 24519 ssh2
+Nov  5 13:29:39 web-server-01 sshd[6590]: Accepted password for bob from 192.0.2.14 port 62437 ssh2
+Nov  5 13:50:23 web-server-01 sshd[8428]: Accepted password for alice from 192.0.2.11 port 38217 ssh2
+Nov  5 13:50:57 web-server-01 sshd[1096]: Accepted password for carol from 192.0.2.15 port 51259 ssh2
+Nov  5 13:56:45 web-server-01 sshd[4505]: Accepted password for dave from 192.0.2.12 port 30014 ssh2
+Nov  5 13:57:57 web-server-01 sshd[9327]: pam_unix(sshd:session): session opened for user dave
+Nov  5 13:57:59 web-server-01 sshd[3236]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 14:01:28 web-server-01 sshd[4114]: Accepted password for alice from 192.0.2.11 port 57787 ssh2
+Nov  5 14:05:00 web-server-01 sshd[8135]: Failed password for dave from 192.0.2.12 port 30026 ssh2
+Nov  5 14:05:10 web-server-01 sshd[9548]: Failed password for dave from 192.0.2.12 port 31543 ssh2
+Nov  5 14:05:35 web-server-01 sshd[5425]: Accepted password for dave from 192.0.2.12 port 62628 ssh2
+Nov  5 14:20:45 web-server-01 sshd[1444]: Failed password for alice from 192.0.2.11 port 58790 ssh2
+Nov  5 14:20:53 web-server-01 sshd[8022]: Accepted password for alice from 192.0.2.11 port 25501 ssh2
+Nov  5 14:24:16 web-server-01 sshd[8517]: Accepted password for bob from 192.0.2.14 port 62129 ssh2
+Nov  5 14:32:30 web-server-01 sshd[4593]: Accepted password for carol from 192.0.2.15 port 43723 ssh2
+Nov  5 14:36:05 web-server-01 sshd[3697]: Accepted password for dave from 192.0.2.12 port 23842 ssh2
+Nov  5 14:36:21 web-server-01 sshd[2084]: Accepted password for erin from 192.0.2.13 port 37546 ssh2
+Nov  5 14:39:03 web-server-01 sshd[3085]: Accepted password for erin from 192.0.2.13 port 39376 ssh2
+Nov  5 14:39:32 web-server-01 sshd[2790]: Accepted password for alice from 192.0.2.11 port 42236 ssh2
+Nov  5 14:47:49 web-server-01 sshd[8886]: Accepted password for dave from 192.0.2.12 port 51826 ssh2
+Nov  5 14:59:24 web-server-01 sshd[5065]: Accepted password for erin from 192.0.2.13 port 63903 ssh2
+Nov  5 15:00:40 web-server-01 sshd[3938]: Accepted password for dave from 192.0.2.12 port 21624 ssh2
+Nov  5 15:05:21 web-server-01 sshd[4185]: Accepted password for bob from 192.0.2.14 port 61272 ssh2
+Nov  5 15:06:17 web-server-01 sshd[6421]: Accepted password for alice from 192.0.2.11 port 46712 ssh2
+Nov  5 15:16:27 web-server-01 sshd[8359]: Accepted password for carol from 192.0.2.15 port 34446 ssh2
+Nov  5 15:17:49 web-server-01 sshd[1320]: Accepted password for dave from 192.0.2.12 port 45524 ssh2
+Nov  5 15:18:28 web-server-01 sshd[7211]: Accepted password for dave from 192.0.2.12 port 63576 ssh2
+Nov  5 15:20:55 web-server-01 sshd[2341]: Failed password for erin from 192.0.2.13 port 36532 ssh2
+Nov  5 15:21:03 web-server-01 sshd[1317]: Accepted password for erin from 192.0.2.13 port 50822 ssh2
+Nov  5 15:24:21 web-server-01 sshd[9835]: Accepted password for carol from 192.0.2.15 port 33880 ssh2
+Nov  5 15:25:19 web-server-01 sshd[8651]: Accepted password for erin from 192.0.2.13 port 46941 ssh2
+Nov  5 15:42:11 web-server-01 sshd[6409]: Accepted password for erin from 192.0.2.13 port 24585 ssh2
+Nov  5 15:52:05 web-server-01 sshd[1475]: Failed password for erin from 192.0.2.13 port 51827 ssh2
+Nov  5 15:52:13 web-server-01 sshd[6507]: Accepted password for erin from 192.0.2.13 port 45484 ssh2
+Nov  5 16:00:54 web-server-01 sshd[5681]: Accepted password for erin from 192.0.2.13 port 25077 ssh2
+Nov  5 16:05:00 web-server-01 sshd[1534]: Failed password for invalid user root from 203.0.113.50 port 39087 ssh2
+Nov  5 16:05:03 web-server-01 sshd[5720]: Failed password for invalid user admin from 203.0.113.50 port 35170 ssh2
+Nov  5 16:05:05 web-server-01 sshd[4501]: Accepted password for bob from 192.0.2.14 port 48977 ssh2
+Nov  5 16:05:06 web-server-01 sshd[8438]: Failed password for invalid user guest from 203.0.113.50 port 38528 ssh2
+Nov  5 16:05:09 web-server-01 sshd[4824]: Failed password for invalid user deploy from 203.0.113.50 port 24664 ssh2
+Nov  5 16:05:12 web-server-01 sshd[4241]: Failed password for invalid user git from 203.0.113.50 port 37337 ssh2
+Nov  5 16:05:15 web-server-01 sshd[2880]: Failed password for invalid user postgres from 203.0.113.50 port 47861 ssh2
+Nov  5 16:05:18 web-server-01 sshd[4683]: Failed password for invalid user jenkins from 203.0.113.50 port 55688 ssh2
+Nov  5 16:05:21 web-server-01 sshd[3441]: Failed password for invalid user user from 203.0.113.50 port 62443 ssh2
+Nov  5 16:05:24 web-server-01 sshd[3330]: Failed password for invalid user root from 203.0.113.50 port 37408 ssh2
+Nov  5 16:05:27 web-server-01 sshd[1977]: Failed password for invalid user admin from 203.0.113.50 port 24679 ssh2
+Nov  5 16:05:30 web-server-01 sshd[6039]: Failed password for invalid user guest from 203.0.113.50 port 30873 ssh2
+Nov  5 16:05:33 web-server-01 sshd[5728]: Failed password for invalid user deploy from 203.0.113.50 port 58996 ssh2
+Nov  5 16:05:36 web-server-01 sshd[3037]: Failed password for invalid user git from 203.0.113.50 port 48780 ssh2
+Nov  5 16:05:39 web-server-01 sshd[5982]: Failed password for invalid user postgres from 203.0.113.50 port 50716 ssh2
+Nov  5 16:05:42 web-server-01 sshd[5460]: Failed password for invalid user jenkins from 203.0.113.50 port 46378 ssh2
+Nov  5 16:05:45 web-server-01 sshd[9847]: Failed password for invalid user user from 203.0.113.50 port 52798 ssh2
+Nov  5 16:05:48 web-server-01 sshd[8172]: Failed password for invalid user root from 203.0.113.50 port 52361 ssh2
+Nov  5 16:05:51 web-server-01 sshd[1653]: Failed password for invalid user admin from 203.0.113.50 port 25271 ssh2
+Nov  5 16:05:54 web-server-01 sshd[6280]: Failed password for invalid user guest from 203.0.113.50 port 48313 ssh2
+Nov  5 16:05:57 web-server-01 sshd[5102]: Failed password for invalid user deploy from 203.0.113.50 port 59564 ssh2
+Nov  5 16:06:00 web-server-01 sshd[2496]: Failed password for invalid user git from 203.0.113.50 port 21695 ssh2
+Nov  5 16:06:03 web-server-01 sshd[1339]: Failed password for invalid user postgres from 203.0.113.50 port 35002 ssh2
+Nov  5 16:06:06 web-server-01 sshd[5415]: Failed password for invalid user jenkins from 203.0.113.50 port 64058 ssh2
+Nov  5 16:06:09 web-server-01 sshd[1659]: Failed password for invalid user user from 203.0.113.50 port 57764 ssh2
+Nov  5 16:06:12 web-server-01 sshd[8708]: Failed password for invalid user root from 203.0.113.50 port 31481 ssh2
+Nov  5 16:14:06 web-server-01 sshd[8777]: Accepted password for carol from 192.0.2.15 port 30430 ssh2
+Nov  5 16:15:29 web-server-01 sshd[8935]: pam_unix(sshd:session): session opened for user carol
+Nov  5 16:15:31 web-server-01 sshd[6654]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 16:33:34 web-server-01 sshd[6153]: pam_unix(sshd:session): session opened for user alice
+Nov  5 16:33:36 web-server-01 sshd[5135]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 16:34:42 web-server-01 sshd[4090]: pam_unix(sshd:session): session opened for user erin
+Nov  5 16:34:44 web-server-01 sshd[4912]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 16:37:09 web-server-01 sshd[8612]: Accepted password for alice from 192.0.2.11 port 28738 ssh2
+Nov  5 16:38:49 web-server-01 sshd[2188]: Accepted password for erin from 192.0.2.13 port 40720 ssh2
+Nov  5 16:41:08 web-server-01 sshd[2638]: Accepted password for alice from 192.0.2.11 port 60708 ssh2
+Nov  5 16:48:35 web-server-01 sshd[1823]: Failed password for dave from 192.0.2.12 port 31909 ssh2
+Nov  5 16:48:43 web-server-01 sshd[7211]: Accepted password for dave from 192.0.2.12 port 37049 ssh2
+Nov  5 16:50:37 web-server-01 sshd[2235]: Accepted password for erin from 192.0.2.13 port 36371 ssh2
+Nov  5 16:57:49 web-server-01 sshd[2020]: Accepted password for carol from 192.0.2.15 port 47248 ssh2
+Nov  5 17:08:14 web-server-01 sshd[4269]: Accepted password for alice from 192.0.2.11 port 34577 ssh2
+Nov  5 17:11:34 web-server-01 sshd[8483]: pam_unix(sshd:session): session opened for user dave
+Nov  5 17:11:36 web-server-01 sshd[3369]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 17:13:13 web-server-01 sshd[4119]: Accepted password for dave from 192.0.2.12 port 46677 ssh2
+Nov  5 17:13:41 web-server-01 sshd[2389]: Accepted password for carol from 192.0.2.15 port 31120 ssh2
+Nov  5 17:38:37 web-server-01 sshd[4919]: Accepted password for carol from 192.0.2.15 port 61074 ssh2
+Nov  5 17:40:24 web-server-01 sshd[9834]: Accepted password for erin from 192.0.2.13 port 34040 ssh2
+Nov  5 17:41:39 web-server-01 sshd[9727]: Accepted password for alice from 192.0.2.11 port 24535 ssh2
+Nov  5 17:59:59 web-server-01 sshd[4997]: Accepted password for bob from 192.0.2.14 port 46191 ssh2
+Nov  5 18:24:04 web-server-01 sshd[5114]: Accepted password for erin from 192.0.2.13 port 52016 ssh2
+Nov  5 18:27:49 web-server-01 sshd[7691]: Accepted password for erin from 192.0.2.13 port 40269 ssh2
+Nov  5 18:29:02 web-server-01 sshd[5889]: Accepted password for dave from 192.0.2.12 port 26973 ssh2
+Nov  5 18:29:10 web-server-01 sshd[1042]: pam_unix(sshd:session): session opened for user erin
+Nov  5 18:29:12 web-server-01 sshd[5634]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 18:31:38 web-server-01 sshd[7807]: pam_unix(sshd:session): session opened for user erin
+Nov  5 18:31:40 web-server-01 sshd[8905]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 18:33:04 web-server-01 sshd[2489]: Accepted password for dave from 192.0.2.12 port 52343 ssh2
+Nov  5 18:46:01 web-server-01 sshd[6491]: Accepted password for erin from 192.0.2.13 port 63506 ssh2
+Nov  5 18:50:39 web-server-01 sshd[2982]: Accepted password for bob from 192.0.2.14 port 49588 ssh2
+Nov  5 19:20:15 web-server-01 sshd[1931]: Accepted password for carol from 192.0.2.15 port 30317 ssh2
+Nov  5 19:31:22 web-server-01 sshd[1452]: Accepted password for bob from 192.0.2.14 port 41702 ssh2
+Nov  5 19:34:28 web-server-01 sshd[9288]: Accepted password for alice from 192.0.2.11 port 33969 ssh2
+Nov  5 19:36:15 web-server-01 sshd[4228]: Accepted password for carol from 192.0.2.15 port 63950 ssh2
+Nov  5 19:37:24 web-server-01 sshd[8019]: Accepted password for carol from 192.0.2.15 port 37219 ssh2
+Nov  5 19:46:40 web-server-01 sshd[9666]: Accepted password for bob from 192.0.2.14 port 39825 ssh2
+Nov  5 19:53:02 web-server-01 sshd[4613]: Failed password for carol from 192.0.2.15 port 59534 ssh2
+Nov  5 19:53:10 web-server-01 sshd[4595]: Accepted password for carol from 192.0.2.15 port 51996 ssh2
+Nov  5 19:56:59 web-server-01 sshd[5978]: Accepted password for bob from 192.0.2.14 port 20026 ssh2
+Nov  5 20:00:00 web-server-01 sshd[8245]: Failed password for invalid user root from 203.0.113.99 port 54010 ssh2
+Nov  5 20:02:12 web-server-01 sshd[1828]: Accepted password for bob from 192.0.2.14 port 26416 ssh2
+Nov  5 20:04:00 web-server-01 sshd[3973]: Failed password for invalid user root from 203.0.113.99 port 38229 ssh2
+Nov  5 20:05:09 web-server-01 sshd[1158]: Accepted password for bob from 192.0.2.14 port 48028 ssh2
+Nov  5 20:08:00 web-server-01 sshd[8141]: Failed password for invalid user root from 203.0.113.99 port 58360 ssh2
+Nov  5 20:08:32 web-server-01 sshd[2876]: Accepted password for erin from 192.0.2.13 port 20752 ssh2
+Nov  5 20:11:32 web-server-01 sshd[2697]: Accepted password for alice from 192.0.2.11 port 39620 ssh2
+Nov  5 20:12:00 web-server-01 sshd[9056]: Failed password for invalid user root from 203.0.113.99 port 61601 ssh2
+Nov  5 20:16:00 web-server-01 sshd[8700]: Failed password for invalid user root from 203.0.113.99 port 25979 ssh2
+Nov  5 20:20:00 web-server-01 sshd[7690]: Failed password for invalid user root from 203.0.113.99 port 42803 ssh2
+Nov  5 20:20:59 web-server-01 sshd[6198]: Accepted password for carol from 192.0.2.15 port 59023 ssh2
+Nov  5 20:24:00 web-server-01 sshd[6260]: Failed password for invalid user root from 203.0.113.99 port 41843 ssh2
+Nov  5 20:28:00 web-server-01 sshd[2713]: Failed password for invalid user root from 203.0.113.99 port 63917 ssh2
+Nov  5 20:32:00 web-server-01 sshd[6403]: Failed password for invalid user root from 203.0.113.99 port 30539 ssh2
+Nov  5 20:36:00 web-server-01 sshd[9117]: Failed password for invalid user root from 203.0.113.99 port 46977 ssh2
+Nov  5 20:39:01 web-server-01 sshd[4483]: Accepted password for dave from 192.0.2.12 port 40622 ssh2
+Nov  5 20:40:00 web-server-01 sshd[7561]: Failed password for invalid user root from 203.0.113.99 port 38888 ssh2
+Nov  5 20:44:00 web-server-01 sshd[1601]: Failed password for invalid user root from 203.0.113.99 port 56051 ssh2
+Nov  5 20:47:27 web-server-01 sshd[8744]: Accepted password for dave from 192.0.2.12 port 57762 ssh2
+Nov  5 21:05:14 web-server-01 sshd[1998]: Accepted password for alice from 192.0.2.11 port 55533 ssh2
+Nov  5 21:25:10 web-server-01 sshd[4770]: Accepted password for alice from 192.0.2.11 port 56301 ssh2
+Nov  5 21:29:57 web-server-01 sshd[1520]: Accepted password for alice from 192.0.2.11 port 47651 ssh2
+Nov  5 21:38:44 web-server-01 sshd[2343]: Accepted password for carol from 192.0.2.15 port 22604 ssh2
+Nov  5 21:41:44 web-server-01 sshd[9669]: Accepted password for bob from 192.0.2.14 port 50674 ssh2
+Nov  5 21:42:52 web-server-01 sshd[7304]: Accepted password for bob from 192.0.2.14 port 24163 ssh2
+Nov  5 21:48:24 web-server-01 sshd[9005]: Accepted password for alice from 192.0.2.11 port 41243 ssh2
+Nov  5 21:55:07 web-server-01 sshd[4257]: Accepted password for carol from 192.0.2.15 port 21739 ssh2
+Nov  5 22:10:18 web-server-01 sshd[3504]: Accepted password for carol from 192.0.2.15 port 33035 ssh2
+Nov  5 22:18:21 web-server-01 sshd[7991]: Accepted password for bob from 192.0.2.14 port 53081 ssh2
+Nov  5 22:24:36 web-server-01 sshd[5930]: Accepted password for dave from 192.0.2.12 port 57296 ssh2
+Nov  5 22:40:09 web-server-01 sshd[8242]: pam_unix(sshd:session): session opened for user bob
+Nov  5 22:40:11 web-server-01 sshd[1845]: Received disconnect from 192.0.2.11 port 50000:11: disconnected by user
+Nov  5 23:07:07 web-server-01 sshd[9751]: Accepted password for carol from 192.0.2.15 port 31215 ssh2
+Nov  5 23:11:47 web-server-01 sshd[3647]: Accepted password for dave from 192.0.2.12 port 37167 ssh2
+Nov  5 23:18:06 web-server-01 sshd[4598]: Accepted password for erin from 192.0.2.13 port 56500 ssh2
+Nov  5 23:47:29 web-server-01 sshd[2612]: Accepted password for alice from 192.0.2.11 port 62348 ssh2
+Nov  5 23:53:10 web-server-01 sshd[2746]: Accepted password for dave from 192.0.2.12 port 20363 ssh2
+Nov  5 23:56:03 web-server-01 sshd[9565]: Accepted password for bob from 192.0.2.14 port 58251 ssh2
