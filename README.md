@@ -2,7 +2,7 @@
 
 A small Python tool that reads SSH authentication logs and flags source IP addresses showing brute-force behaviour. It was built as a learning project for security monitoring: detect, rank by severity, and report.
 
-![Sample report](docs/report.png)
+![Sample report](docs/bruteforce report.png)
 
 ## What it does
 - Parses `sshd` "Failed password" and "Accepted password" lines from a Linux auth log
